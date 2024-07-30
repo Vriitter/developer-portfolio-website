@@ -18,3 +18,60 @@ body {
    font-weight: 400;
    /* font-family: "Manrope", sans-serif; */
 }
+
+.container {
+   max-width: 1170px;
+   padding: 0 10px;
+   margin: 0 auto;
+}
+
+.hero {
+   position: relative;
+   height: 765px;
+   background: url(../img/about-bg.jpg) center top/cover no-repeat;
+   color: #fff;
+}
+
+/* HEADER */
+.header {
+   padding-top: 37px;
+}
+
+.header__inner {
+   display: flex;
+   align-items: start;
+   justify-content: space-between;
+}
+
+.menu__list {
+   display: flex;
+   gap: 58px;
+}
+
+.menu__list-link:hover {
+   color: #1BFF07;
+   transition: all .3s;
+}
+
+/* ABOUT */
+.about__inner {
+   position: absolute;
+   bottom: 90px;
+}
+
+.about__text {
+   max-width: 430px;
+   margin-bottom: 29px;
+   font-size: 20px;
+   line-height: 26px;
+   letter-spacing: -0.03em;
+}
+
+.about__title {
+   max-width: 920px;
+   font-weight: 400;
+   font-size: 80px;
+   line-height: 87%;
+   letter-spacing: -0.03em;
+   color: #1bff07;
+}
