@@ -1,2 +1,2 @@
-# developer-portfolio-website
+# Developer portfolio
 Portfolio landing page for front-end developer
