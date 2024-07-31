@@ -266,3 +266,46 @@ body {
    line-height: 29px;
    letter-spacing: -0.03em;
 }
+
+/* CONTACTS */
+.contacts {
+   height: 717px;
+   position: relative;
+   background-color: #191C19;
+   color: #fff;
+}
+
+.contacts__img {
+   position: absolute; 
+   right: 0;
+}
+
+.contacts__text {
+   position: absolute;
+   bottom: 90px;
+}
+
+.contacts__title {
+   margin-bottom: 28px;
+   font-weight: 400;
+   font-size: 35px;
+   line-height: 60px;
+   line-height: 171%;
+   letter-spacing: -0.03em;
+}
+
+.contacts__item {
+   margin-bottom: 20px;
+   font-size: 60px;
+   line-height: 100%;
+   letter-spacing: -0.03em;
+}
+
+.contacts__item:hover {
+   color: #1bff07;
+   transition: all .3s;
+}
+
+.contacts__item:last-child {
+   margin-bottom: 0;
+}
