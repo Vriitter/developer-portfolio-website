@@ -1,5 +1,6 @@
 html {
    box-sizing: border-box;
+   scroll-behavior: smooth;
 }
 
 *, 
@@ -16,7 +17,6 @@ a {
 body {
    font-family: "IBM Plex Mono", monospace;
    font-weight: 400;
-   /* font-family: "Manrope", sans-serif; */
 }
 
 .container {
@@ -214,4 +214,117 @@ body {
    font-size: 22px;
    line-height: 29px;
    letter-spacing: -0.03em;
+}
+
+/* TASKS */
+.tasks {
+   padding-bottom: 145px;
+   background-color: #000;
+   color: #fff;
+}
+
+.tasks__title {
+   max-width: 400px;
+   margin-bottom: 76px;
+   font-weight: 400;
+   font-size: 35px;
+   line-height: 46px;
+   letter-spacing: -0.03em;
+}
+
+.tasks__img {
+   width: 100%;
+   border-radius: 30px;
+}
+
+.tasks__item {
+   margin-bottom: 74px;
+}
+
+.tasks__item:last-child {
+   margin: 137px 0 0;
+}
+
+.tasks__descr {
+   height: 283px;
+   padding: 45px 50px 40px;
+   border-radius: 30px;
+   background-color: #191C19;
+}
+
+.tasks__item-title {
+   margin-bottom: 20px;
+   font-weight: 400;
+   font-size: 55px;
+   letter-spacing: -0.03em;
+   color: #1bff07;
+}
+
+.tasks__item-text {
+   max-width: 725px;
+   font-size: 22px;
+   line-height: 29px;
+   letter-spacing: -0.03em;
+}
+
+/* CONTACTS */
+.contacts {
+   height: 717px;
+   position: relative;
+   background-color: #191C19;
+   color: #fff;
+}
+
+.contacts__img {
+   position: absolute; 
+   right: 0;
+}
+
+.contacts__text {
+   position: absolute;
+   bottom: 90px;
+}
+
+.contacts__title {
+   margin-bottom: 28px;
+   font-weight: 400;
+   font-size: 35px;
+   line-height: 60px;
+   line-height: 171%;
+   letter-spacing: -0.03em;
+}
+
+.contacts__item {
+   margin-bottom: 20px;
+   font-size: 60px;
+   line-height: 100%;
+   letter-spacing: -0.03em;
+}
+
+.contacts__item:hover {
+   color: #1bff07;
+   transition: all .3s;
+}
+
+.contacts__item:last-child {
+   margin-bottom: 0;
+}
+
+/* FOOTER */
+.footer {
+   padding: 76px 0 24px;
+   font-family: "Manrope", sans-serif;
+   background: #fff;
+}
+
+.footer__author {
+   margin-bottom: 66px;
+   font-size: 22px;
+   letter-spacing: -0.03em;
+}
+
+.footer__copy {
+   font-size: 20px;
+   letter-spacing: -0.03em;
+   opacity: 0.5;
 }
