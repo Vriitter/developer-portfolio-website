@@ -215,3 +215,54 @@ body {
    line-height: 29px;
    letter-spacing: -0.03em;
 }
+
+/* TASKS */
+.tasks {
+   padding-bottom: 145px;
+   background-color: #000;
+   color: #fff;
+}
+
+.tasks__title {
+   max-width: 400px;
+   margin-bottom: 76px;
+   font-weight: 400;
+   font-size: 35px;
+   line-height: 46px;
+   letter-spacing: -0.03em;
+}
+
+.tasks__img {
+   width: 100%;
+   border-radius: 30px;
+}
+
+.tasks__item {
+   margin-bottom: 74px;
+}
+
+.tasks__item:last-child {
+   margin: 137px 0 0;
+}
+
+.tasks__descr {
+   height: 283px;
+   padding: 45px 50px 40px;
+   border-radius: 30px;
+   background-color: #191C19;
+}
+
+.tasks__item-title {
+   margin-bottom: 20px;
+   font-weight: 400;
+   font-size: 55px;
+   letter-spacing: -0.03em;
+   color: #1bff07;
+}
+
+.tasks__item-text {
+   max-width: 725px;
+   font-size: 22px;
+   line-height: 29px;
+   letter-spacing: -0.03em;
+}
