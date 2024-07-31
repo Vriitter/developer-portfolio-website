@@ -16,7 +16,6 @@ a {
 body {
    font-family: "IBM Plex Mono", monospace;
    font-weight: 400;
-   /* font-family: "Manrope", sans-serif; */
 }
 
 .container {
@@ -308,4 +307,23 @@ body {
 
 .contacts__item:last-child {
    margin-bottom: 0;
+}
+
+/* FOOTER */
+.footer {
+   padding: 76px 0 24px;
+   font-family: "Manrope", sans-serif;
+   background: #fff;
+}
+
+.footer__author {
+   margin-bottom: 66px;
+   font-size: 22px;
+   letter-spacing: -0.03em;
+}
+
+.footer__copy {
+   font-size: 20px;
+   letter-spacing: -0.03em;
+   opacity: 0.5;
 }
