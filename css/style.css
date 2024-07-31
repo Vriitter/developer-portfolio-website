@@ -25,6 +25,13 @@ body {
    margin: 0 auto;
 }
 
+.title-h2 {
+   font-weight: 400;
+   font-size: 55px;
+   letter-spacing: -0.03em;
+   color: #fff;
+}
+
 .hero {
    position: relative;
    height: 765px;
@@ -74,4 +81,73 @@ body {
    line-height: 87%;
    letter-spacing: -0.03em;
    color: #1bff07;
+}
+
+/* PROJECTS */
+.projects {
+   padding: 160px 0 150px;
+   background-color: #000;
+   color: #fff;
+}
+
+.projects__title {
+   margin-bottom: 47px;
+}
+
+.projects__list {
+   margin-bottom: 75px;
+}
+
+.projects__item {
+   position: relative;
+}
+
+.projects__item__img {
+   border-radius: 30px;
+}
+
+.projects__item__descr {
+   position: absolute;
+   display: block;
+   bottom: 50px;
+   left: 50px;
+}
+
+.projects__item__descr:hover {
+   color:#1BFF07;
+   transition: all .3s;
+}
+
+.projects__item-title {
+   margin-bottom: 5px;
+   font-weight: 400;
+   font-size: 35px;
+   line-height: 46px;
+   letter-spacing: -0.03em;
+}
+
+.projects__item-text {
+   font-size: 30px;
+   line-height: 39px;
+   letter-spacing: -0.03em;
+}
+
+.btn {
+   display: block;
+   width: 582px;
+   height: 153px; 
+   border: 1px solid #1BFF07;
+   border-radius: 10px;
+   font-size: 30px;
+   line-height: 153px;
+   letter-spacing: -0.03em;
+   text-align: center;
+   background-color: #1BFF07;
+   color: #000;
+}
+
+.btn:hover {
+   color: #1BFF07;
+   background: transparent;
+   transition: all .3s;
 }
