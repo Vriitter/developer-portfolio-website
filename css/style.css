@@ -85,7 +85,7 @@ body {
 
 /* PROJECTS */
 .projects {
-   padding: 160px 0 150px;
+   padding: 160px 0;
    background-color: #000;
    color: #fff;
 }
@@ -150,4 +150,68 @@ body {
    color: #1BFF07;
    background: transparent;
    transition: all .3s;
+}
+
+/* SKILLS */
+.skills {
+   padding-bottom: 150px;
+   background-color: #000;
+   color: #fff;
+}
+
+.skills__title {
+   margin-top: 0;
+   margin-bottom: 110px;
+}
+
+.skills__item {
+   position: relative;
+   max-width: 778px;
+   margin-bottom: 118px;
+}
+
+.skills__item::before {
+   position: absolute;
+   top: -59px;
+   content: '';
+   width: 45px;
+   height: 44px;
+   background: url(../img/skills-icon1.svg) center/cover;
+}
+
+.skills__item:nth-child(2):before {
+   position: absolute;
+   content: '';
+   background: url(../img/skills-icon2.svg) center/cover;
+}
+
+.skills__item:nth-child(3):before {
+   position: absolute;
+   content: '';
+   background: url(../img/skills-icon3.svg) center/cover;
+}
+
+.skills__item:last-child::before {
+   position: absolute;
+   content: '';
+   background: url(../img/skills-icon4.svg) center/cover;
+}
+
+.skills__item:last-child {
+   margin-bottom: 0;
+}
+
+.skills__item-title {
+   margin-bottom: 16px;
+   font-weight: 400;
+   font-size: 35px;
+   line-height: 46px;
+   letter-spacing: -0.03em;
+   color: #1bff07;
+}
+
+.skills__item-text {
+   font-size: 22px;
+   line-height: 29px;
+   letter-spacing: -0.03em;
 }
